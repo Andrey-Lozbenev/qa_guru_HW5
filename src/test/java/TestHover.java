@@ -12,6 +12,7 @@ public class TestHover {
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
     }
+
     @Test
     void testGithubHover() {
         open("https://github.com");

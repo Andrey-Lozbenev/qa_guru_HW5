@@ -11,6 +11,7 @@ public class DragAndDrop {
     static void beforeAll() {
         Configuration.browserSize = "1920x1080";
     }
+
     @Test
     void dragAndDrop() {
         open("https://the-internet.herokuapp.com/drag_and_drop");
